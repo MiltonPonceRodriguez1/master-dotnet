@@ -1,0 +1,161 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis, diam sed gravida semper, magna massa finibus lacus, vel dignissim elit eros eget nibh. Praesent dapibus dolor vitae ante congue dignissim. Etiam a consectetur purus. Donec maximus et sapien eget rutrum. Aliquam erat volutpat. Pellentesque ac odio faucibus, consectetur arcu sit amet, tristique neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas id pretium orci, vitae suscipit dui.
+</p>
+
+<p>Milton</p>
+
+<p>otro parrafo chido xD</p>
+
+<h4 class="text-center">Grid</h4>
+<div class="row">
+    <div class="col first">Col 1</div>
+    <div class="col first">Col 2</div>
+    <div class="col first">Col 3</div>
+    <div class="col first">Col 4</div>
+</div>
+
+<h4 class="text-center">Colums</h4>
+<div class="row">
+    <div class="col first">Col 1</div>
+    <div class="col-6 first">Col 2</div>
+    <div class="col first">Col 3</div>
+</div>
+
+<h4 class="text-center">Alineando Fila</h4>
+<div class="row align-items-center row-example">
+    <div class="col first">col 1</div>
+    <div class="col first">col 2</div>
+    <div class="col first">col 3</div>
+</div>
+
+<h4 class="text-center">Alineando Horizontalmente</h4>
+<div class="row row-example">
+    <div class="col first align-self-start">col 1</div>
+    <div class="col first align-self-center">col 2</div>
+    <div class="col first align-self-end">col 3</div>
+</div>
+
+<h4 class="text-center">Offset</h4>
+<div class="row row-example">
+    <div class="col-4 first">col 1</div>
+    <div class="col-4 offset-4 first">col 2</div>
+</div>
+
+<h4 class="text-center">Auto Margen</h4>
+<div class="row row-example">
+    <div class="col-3 first">col 1</div>
+    <div class="col-4 ms-auto first">col 2</div>
+</div>
+
+<h4 class="text-center mb-4">Images</h4>
+<div class="row gy-3">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+        <img class="img-fluid" src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/36bdc5ea4443cd8e42f22ec7d3884cbb.jpe" alt="">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+        <img class="img-fluid" src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/36bdc5ea4443cd8e42f22ec7d3884cbb.jpe" alt="">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+        <img class="img-fluid" src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/36bdc5ea4443cd8e42f22ec7d3884cbb.jpe" alt="">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+        <img class="img-fluid" src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/36bdc5ea4443cd8e42f22ec7d3884cbb.jpe" alt="">
+    </div>
+</div>
+
+<div class="mb-5"></div>
+
+
+<h4 class="text-center mb-4">Imagenes tipo thumbnail</h4>
+
+<div class="text-center">
+    <img class="img-thumbnail rounded-circle" width="250px" src="https://es.web.img3.acsta.net/medias/nmedia/18/36/04/23/18447764.jpg" alt="">
+</div>
+<div class="clearfix"></div>
+<h4 class="text-center mb-4">Videos con Ratio (responsive)</h4>
+
+<div class="ratio ratio-16x9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zZBQGCI2hm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h4 class="text-center mb-4">Altura al 100%</h4>
+<div class="vh-100 bg-secondary">Height 100vh</div>
+
+<h4 class="text-center mb-4">Margenes Eje Y</h4>
+
+<div>
+    Fila 1
+</div>
+
+<div class="my-3">
+    Fila 2
+</div>
+
+<div>
+    Fila 3
+</div>
+
+<h4 class="text-center mb-4">Margenes Eje X</h4>
+<button class="btn btn-primary me-3 px-4">Boton 1</button> <!-- me: margin end  px: padding eje x-->
+<button class="btn btn-secondary ms-3">Boton 2</button> <!-- ms: margin start -->
+
+<h4 class="text-center mb-4">Acordeon</h4>
+
+<div class="accordion accordion-flush" id="myAccordion">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button data-bs-toggle="collapse" data-bs-target="#elem1" class="accordion-button">Elemento 1</button>
+        </h2>
+        <div id="elem1" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+            <div class="accordion-body">
+                Este es el contenido del primer elemento
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button data-bs-toggle="collapse" data-bs-target="#elem2" class="accordion-button">Elemento 2</button>
+        </h2>
+        <div id="elem2" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+            <div class="accordion-body">
+                Este es el contenido del segundo elemento
+            </div>
+        </div>
+    </div>
+</div>
+
+<h4 class="text-center mb-4">Alertas with lenguaje de plantilla de dotnet</h4>
+
+<div class="text-center">
+    <button class="btn btn-success px-3 mb-3" onclick="showAlert('Mensaje exitoso desde plantilla de DOTNET!', 'success')">Mostar alerta de exito</button>
+    <button class="btn btn-danger px-3 mb-3" onclick="showAlert('Mensaje erroneo desde plantilla de DOTNET!', 'danger')">Mostar alerta de error</button>
+</div>
+
+<div id="container-alerts"></div>
+
+@section Scripts{
+    <script>
+        function showAlert(message, type) {
+            const alert = document.createElement("div");
+            alert.innerHTML = `
+                <div class="alert alert-${type} alert-dismissible fade show" role="alert">
+                    ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <div>
+            `;
+
+            const container_alerts = document.getElementById('container-alerts');
+            container_alerts.append(alert);
+        }
+    </script>
+}
