@@ -1,12 +1,7 @@
-﻿@model User
-
-@{
+﻿@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h2 class="display-4">Soy @Model.name (@Model.age)</h1>
+<partial name="_Presentation"/>
 
-    <h4>Soy un desarrollador Full Stack especializado en tecnologias .NET y Javascript</h2>
-    <img class="avatar" src="~/images/avatar.jpg" alt="avatar" />
-</div>
+<partial name="_Skills" />

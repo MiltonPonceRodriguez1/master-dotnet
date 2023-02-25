@@ -15,12 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var user = new User() {
-            name = "Milton Ponce Rodriguez",
-            age = 23
-        };
-
-        return View(user);
+        return View();
     }
 
     public IActionResult Privacy()

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u09XECDBNaJfp7a8o8MCPxD0XWNO5surBFni6IKkcYk=",
+  "Hash": "aX0IM/YtC99YRM3Ol1EWaqv5ulZ7nPshQew+T18sHxI=",
   "Source": "portafolio",
   "BasePath": "_content/portafolio",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\avatar.jpg"
+    },
+    {
+      "Identity": "C:\\wamp64\\www\\master-dotnet\\portafolio\\wwwroot\\images\\dotnet-imagen-2.png",
+      "SourceId": "portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\wamp64\\www\\master-dotnet\\portafolio\\wwwroot\\",
+      "BasePath": "_content/portafolio",
+      "RelativePath": "images/dotnet-imagen-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dotnet-imagen-2.png"
     },
     {
       "Identity": "C:\\wamp64\\www\\master-dotnet\\portafolio\\wwwroot\\js\\site.js",
