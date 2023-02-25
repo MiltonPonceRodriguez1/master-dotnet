@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GGz63r8xUtZ0zRWSzk9bLANnI0g1MGUa/rczgbTAHpA=",
+  "Hash": "u09XECDBNaJfp7a8o8MCPxD0XWNO5surBFni6IKkcYk=",
   "Source": "portafolio",
   "BasePath": "_content/portafolio",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\wamp64\\www\\master-dotnet\\portafolio\\wwwroot\\css\\styles.css",
+      "SourceId": "portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\wamp64\\www\\master-dotnet\\portafolio\\wwwroot\\",
+      "BasePath": "_content/portafolio",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "C:\\wamp64\\www\\master-dotnet\\portafolio\\wwwroot\\favicon.ico",
       "SourceId": "portafolio",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\wamp64\\www\\master-dotnet\\portafolio\\wwwroot\\images\\avatar.jpg",
+      "SourceId": "portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\wamp64\\www\\master-dotnet\\portafolio\\wwwroot\\",
+      "BasePath": "_content/portafolio",
+      "RelativePath": "images/avatar.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\avatar.jpg"
     },
     {
       "Identity": "C:\\wamp64\\www\\master-dotnet\\portafolio\\wwwroot\\js\\site.js",
