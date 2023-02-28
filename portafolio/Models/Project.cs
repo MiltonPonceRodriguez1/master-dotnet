@@ -1,6 +1,6 @@
 namespace portafolio.Models
 {
-    class Project
+    public class Project
     {
         public string title { get; set; }
         public string description { get; set; }
