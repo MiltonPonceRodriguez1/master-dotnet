@@ -1,0 +1,28 @@
+@model IEnumerable<Project>
+
+@if (Model is not null)
+{
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var project in Model)
+            {
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="@project.image" class="card-img-top" alt="imagen-@project.title" />
+
+                        <div class="card-body">
+                            <h5 class="card-title">@project.title</h5>
+                            <p class="card-text">@project.description</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="d-grid gap-2">
+                                <a class="btn btn-outline-primary" href="@project.url" target="_blank" rel="noopener noreferrer">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
